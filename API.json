@@ -1,0 +1,3452 @@
+{
+    "1A:35:ED:0F:54:63": {
+        "Name": "R2",
+        "Protocolos": ["BGP", "OSPF"],
+        "status":"online",
+        "VLANs": {
+            "VL4": {
+                "Ports": [],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.27.171",
+                "SSH": false
+            },
+            "VL3": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_174"
+                ],
+                "ET": false,
+                "IP": "192.168.45.216",
+                "SSH": false
+            }
+        }
+    },
+    "42:42:E0:E9:6B:70": {
+        "Name": "AP3",
+        "Protocolos": [
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL17": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.36.122",
+                "SSH": false
+            }
+        }
+    },
+    "6A:4B:B4:A7:CE:41": {
+        "Name": "GW4",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL10": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_308",
+                    "POL_656"
+                ],
+                "ET": false,
+                "IP": "192.168.40.11",
+                "SSH": false
+            },
+            "VL12": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_237"
+                ],
+                "ET": false,
+                "IP": "192.168.16.188",
+                "SSH": false
+            },
+            "VL1": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_634",
+                    "POL_972"
+                ],
+                "ET": false,
+                "IP": "192.168.8.160",
+                "SSH": true
+            }
+        }
+    },
+    "F3:4D:F6:BC:73:56": {
+        "Name": "R5",
+        "Protocolos": [
+            "ST",
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL3": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_646",
+                    "POL_571"
+                ],
+                "ET": false,
+                "IP": "192.168.48.211",
+                "SSH": true
+            },
+            "VL14": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.33.52",
+                "SSH": true
+            },
+            "VL6": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.49.132",
+                "SSH": false
+            }
+        }
+    },
+    "8F:10:4E:7B:42:9A": {
+        "Name": "FW6",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL9": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_561",
+                    "POL_478"
+                ],
+                "ET": true,
+                "IP": "192.168.22.128",
+                "SSH": false
+            },
+            "VL14": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_424",
+                    "POL_363"
+                ],
+                "ET": false,
+                "IP": "192.168.45.85",
+                "SSH": false
+            },
+            "VL5": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.26.174",
+                "SSH": true
+            }
+        }
+    },
+    "7E:F4:A0:F7:98:AC": {
+        "Name": "R7",
+        "Protocolos": [
+            "RIP",
+            "ST"
+        ],
+        "VLANs": {
+            "VL4": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_228",
+                    "POL_826"
+                ],
+                "ET": true,
+                "IP": "192.168.7.60",
+                "SSH": true
+            },
+            "VL11": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_969"
+                ],
+                "ET": true,
+                "IP": "192.168.43.40",
+                "SSH": false
+            }
+        }
+    },
+    "17:90:52:03:2F:33": {
+        "Name": "SW8",
+        "Protocolos": [
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL4": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.38.16",
+                "SSH": false
+            },
+            "VL17": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_835",
+                    "POL_375"
+                ],
+                "ET": true,
+                "IP": "192.168.40.23",
+                "SSH": true
+            }
+        }
+    },
+    "74:A7:63:6D:12:2E": {
+        "Name": "GW9",
+        "Protocolos": [
+            "BGP",
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL2": {
+                "Ports": [],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.37.149",
+                "SSH": true
+            },
+            "VL13": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_989",
+                    "POL_212"
+                ],
+                "ET": true,
+                "IP": "192.168.5.131",
+                "SSH": true
+            },
+            "VL8": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_497",
+                    "POL_722"
+                ],
+                "ET": true,
+                "IP": "192.168.27.209",
+                "SSH": false
+            },
+            "VL1": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_676"
+                ],
+                "ET": true,
+                "IP": "192.168.5.85",
+                "SSH": false
+            }
+        }
+    },
+    "2A:BE:31:A1:CC:88": {
+        "Name": "SW10",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL18": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_303",
+                    "POL_108"
+                ],
+                "ET": false,
+                "IP": "192.168.43.117",
+                "SSH": false
+            }
+        }
+    },
+    "EE:1A:AF:8B:AA:BD": {
+        "Name": "GW11",
+        "Protocolos": [
+            "BGP"
+        ],
+        "VLANs": {
+            "VL13": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.24.243",
+                "SSH": true
+            },
+            "VL10": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_886"
+                ],
+                "ET": true,
+                "IP": "192.168.34.170",
+                "SSH": false
+            }
+        }
+    },
+    "30:27:97:A8:0E:21": {
+        "Name": "R12",
+        "Protocolos": [
+            "RIP",
+            "ST"
+        ],
+        "VLANs": {
+            "VL13": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_746"
+                ],
+                "ET": true,
+                "IP": "192.168.25.213",
+                "SSH": true
+            },
+            "VL7": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_501",
+                    "POL_465"
+                ],
+                "ET": false,
+                "IP": "192.168.42.39",
+                "SSH": false
+            }
+        }
+    },
+    "A0:15:2C:49:80:6D": {
+        "Name": "SW13",
+        "Protocolos": [
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL10": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.21.241",
+                "SSH": false
+            }
+        }
+    },
+    "E5:5C:90:3A:C6:C8": {
+        "Name": "AP14",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL2": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_436",
+                    "POL_292"
+                ],
+                "ET": false,
+                "IP": "192.168.46.190",
+                "SSH": false
+            }
+        }
+    },
+    "A9:94:D5:64:89:99": {
+        "Name": "FW15",
+        "Protocolos": [
+            "RIP",
+            "ST"
+        ],
+        "VLANs": {
+            "VL6": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_293",
+                    "POL_365"
+                ],
+                "ET": false,
+                "IP": "192.168.24.36",
+                "SSH": true
+            }
+        }
+    },
+    "4C:88:C8:A9:43:EF": {
+        "Name": "SW16",
+        "Protocolos": [
+            "BGP",
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL8": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_920"
+                ],
+                "ET": true,
+                "IP": "192.168.38.68",
+                "SSH": true
+            },
+            "VL10": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_460"
+                ],
+                "ET": true,
+                "IP": "192.168.31.197",
+                "SSH": true
+            }
+        }
+    },
+    "76:1D:13:D1:F8:8F": {
+        "Name": "SW17",
+        "Protocolos": [
+            "BGP",
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL15": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.2.181",
+                "SSH": false
+            },
+            "VL7": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_983",
+                    "POL_301"
+                ],
+                "ET": true,
+                "IP": "192.168.31.29",
+                "SSH": false
+            }
+        }
+    },
+    "B9:08:36:FD:D5:0F": {
+        "Name": "AP18",
+        "Protocolos": [
+            "BGP"
+        ],
+        "VLANs": {
+            "VL4": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_945",
+                    "POL_904"
+                ],
+                "ET": true,
+                "IP": "192.168.31.81",
+                "SSH": false
+            },
+            "VL13": {
+                "Ports": [],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.44.141",
+                "SSH": true
+            }
+        }
+    },
+    "3A:F2:51:C3:E6:03": {
+        "Name": "FW19",
+        "Protocolos": [
+            "RIP",
+            "ST"
+        ],
+        "VLANs": {
+            "VL12": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.42.156",
+                "SSH": true
+            },
+            "VL7": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_741",
+                    "POL_661"
+                ],
+                "ET": false,
+                "IP": "192.168.11.18",
+                "SSH": false
+            }
+        }
+    },
+    "07:1A:A7:75:FE:41": {
+        "Name": "GW20",
+        "Protocolos": [
+            "BGP",
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL18": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.42.184",
+                "SSH": false
+            },
+            "VL6": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.26.243",
+                "SSH": false
+            }
+        }
+    },
+    "52:12:0A:69:54:CC": {
+        "Name": "GW21",
+        "Protocolos": [
+            "BGP"
+        ],
+        "VLANs": {
+            "VL17": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.29.197",
+                "SSH": false
+            },
+            "VL13": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_336"
+                ],
+                "ET": false,
+                "IP": "192.168.24.223",
+                "SSH": false
+            },
+            "VL19": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_811",
+                    "POL_936"
+                ],
+                "ET": true,
+                "IP": "192.168.33.112",
+                "SSH": false
+            },
+            "VL16": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.19.249",
+                "SSH": false
+            }
+        }
+    },
+    "15:A6:B7:71:98:71": {
+        "Name": "FW22",
+        "Protocolos": [
+            "ST",
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL4": {
+                "Ports": [],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.4.194",
+                "SSH": false
+            },
+            "VL1": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.50.13",
+                "SSH": false
+            }
+        }
+    },
+    "79:68:C8:12:C3:86": {
+        "Name": "FW23",
+        "Protocolos": [
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL2": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_104"
+                ],
+                "ET": true,
+                "IP": "192.168.46.229",
+                "SSH": true
+            },
+            "VL12": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.16.93",
+                "SSH": true
+            }
+        }
+    },
+    "A6:24:0F:F4:B1:5D": {
+        "Name": "R24",
+        "Protocolos": [
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL7": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_752"
+                ],
+                "ET": true,
+                "IP": "192.168.10.25",
+                "SSH": true
+            },
+            "VL3": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.1.60",
+                "SSH": true
+            },
+            "VL4": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.38.10",
+                "SSH": false
+            },
+            "VL17": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.1.169",
+                "SSH": true
+            }
+        }
+    },
+    "B9:63:10:23:4A:11": {
+        "Name": "FW25",
+        "Protocolos": [
+            "ST",
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL19": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.24.92",
+                "SSH": false
+            }
+        }
+    },
+    "2F:33:5B:3A:28:A4": {
+        "Name": "R26",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL14": {
+                "Ports": [],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.12.170",
+                "SSH": false
+            },
+            "VL12": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_783",
+                    "POL_143"
+                ],
+                "ET": true,
+                "IP": "192.168.4.94",
+                "SSH": false
+            }
+        }
+    },
+    "B1:FC:2A:67:2D:83": {
+        "Name": "R27",
+        "Protocolos": [
+            "BGP",
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL16": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_335"
+                ],
+                "ET": true,
+                "IP": "192.168.50.200",
+                "SSH": false
+            },
+            "VL19": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_442",
+                    "POL_609"
+                ],
+                "ET": true,
+                "IP": "192.168.17.235",
+                "SSH": true
+            }
+        }
+    },
+    "9E:A2:EE:07:CD:DB": {
+        "Name": "R28",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL16": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_727",
+                    "POL_744"
+                ],
+                "ET": true,
+                "IP": "192.168.27.232",
+                "SSH": true
+            },
+            "VL13": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.4.67",
+                "SSH": false
+            }
+        }
+    },
+    "0B:75:85:40:3D:10": {
+        "Name": "GW29",
+        "Protocolos": [
+            "ST",
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL13": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_786"
+                ],
+                "ET": true,
+                "IP": "192.168.47.220",
+                "SSH": true
+            },
+            "VL11": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_520",
+                    "POL_237"
+                ],
+                "ET": false,
+                "IP": "192.168.43.225",
+                "SSH": true
+            },
+            "VL17": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_877",
+                    "POL_269"
+                ],
+                "ET": true,
+                "IP": "192.168.39.131",
+                "SSH": false
+            }
+        }
+    },
+    "09:04:04:EA:DC:1C": {
+        "Name": "SW30",
+        "Protocolos": [
+            "ST",
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL15": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.29.4",
+                "SSH": true
+            },
+            "VL2": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_543",
+                    "POL_617"
+                ],
+                "ET": true,
+                "IP": "192.168.31.247",
+                "SSH": true
+            }
+        }
+    },
+    "85:67:0A:17:5E:D6": {
+        "Name": "AP31",
+        "Protocolos": [
+            "ST",
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL13": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_961"
+                ],
+                "ET": true,
+                "IP": "192.168.28.238",
+                "SSH": true
+            },
+            "VL2": {
+                "Ports": [],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.6.76",
+                "SSH": false
+            },
+            "VL9": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_799",
+                    "POL_868"
+                ],
+                "ET": true,
+                "IP": "192.168.44.104",
+                "SSH": false
+            }
+        }
+    },
+    "0F:D9:B4:4F:88:F8": {
+        "Name": "AP32",
+        "Protocolos": [
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL17": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_940",
+                    "POL_648"
+                ],
+                "ET": false,
+                "IP": "192.168.38.182",
+                "SSH": false
+            },
+            "VL9": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_440",
+                    "POL_657"
+                ],
+                "ET": true,
+                "IP": "192.168.44.84",
+                "SSH": false
+            },
+            "VL2": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_803",
+                    "POL_969"
+                ],
+                "ET": true,
+                "IP": "192.168.2.91",
+                "SSH": true
+            },
+            "VL1": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_995",
+                    "POL_879"
+                ],
+                "ET": false,
+                "IP": "192.168.2.12",
+                "SSH": true
+            }
+        }
+    },
+    "F8:CE:DD:5E:42:AD": {
+        "Name": "SW33",
+        "Protocolos": [
+            "RIP",
+            "ST"
+        ],
+        "VLANs": {
+            "VL8": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.5.250",
+                "SSH": true
+            },
+            "VL13": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_387",
+                    "POL_733"
+                ],
+                "ET": true,
+                "IP": "192.168.39.233",
+                "SSH": true
+            },
+            "VL3": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_372"
+                ],
+                "ET": true,
+                "IP": "192.168.27.66",
+                "SSH": true
+            },
+            "VL18": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_660",
+                    "POL_916"
+                ],
+                "ET": false,
+                "IP": "192.168.8.122",
+                "SSH": false
+            }
+        }
+    },
+    "DD:08:EB:92:7E:05": {
+        "Name": "SW34",
+        "Protocolos": [
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL7": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_399"
+                ],
+                "ET": true,
+                "IP": "192.168.47.147",
+                "SSH": true
+            }
+        }
+    },
+    "24:20:F0:1C:99:5F": {
+        "Name": "SW35",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL15": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.42.47",
+                "SSH": false
+            },
+            "VL2": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_325",
+                    "POL_966"
+                ],
+                "ET": false,
+                "IP": "192.168.41.98",
+                "SSH": false
+            },
+            "VL14": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_158"
+                ],
+                "ET": true,
+                "IP": "192.168.1.28",
+                "SSH": false
+            }
+        }
+    },
+    "89:8E:3E:70:85:62": {
+        "Name": "SW36",
+        "Protocolos": [
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL19": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_998"
+                ],
+                "ET": true,
+                "IP": "192.168.11.30",
+                "SSH": true
+            },
+            "VL8": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_684",
+                    "POL_472"
+                ],
+                "ET": false,
+                "IP": "192.168.31.222",
+                "SSH": true
+            },
+            "VL1": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.27.25",
+                "SSH": false
+            },
+            "VL16": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_683"
+                ],
+                "ET": true,
+                "IP": "192.168.49.208",
+                "SSH": true
+            }
+        }
+    },
+    "4D:4B:DE:92:54:85": {
+        "Name": "GW37",
+        "Protocolos": [
+            "RIP",
+            "ST"
+        ],
+        "VLANs": {
+            "VL1": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_759"
+                ],
+                "ET": false,
+                "IP": "192.168.23.246",
+                "SSH": false
+            }
+        }
+    },
+    "67:84:8B:D9:AF:4B": {
+        "Name": "SW38",
+        "Protocolos": [
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL13": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.49.84",
+                "SSH": true
+            }
+        }
+    },
+    "38:34:4F:85:4A:BE": {
+        "Name": "GW39",
+        "Protocolos": [
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL13": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_167"
+                ],
+                "ET": false,
+                "IP": "192.168.10.3",
+                "SSH": true
+            },
+            "VL6": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_624",
+                    "POL_397"
+                ],
+                "ET": false,
+                "IP": "192.168.14.50",
+                "SSH": false
+            }
+        }
+    },
+    "34:7E:80:17:97:BF": {
+        "Name": "R40",
+        "Protocolos": [
+            "BGP",
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL3": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_602"
+                ],
+                "ET": true,
+                "IP": "192.168.40.230",
+                "SSH": false
+            }
+        }
+    },
+    "0F:63:EF:56:FD:CE": {
+        "Name": "AP41",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL9": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_506"
+                ],
+                "ET": true,
+                "IP": "192.168.31.114",
+                "SSH": true
+            },
+            "VL18": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_468"
+                ],
+                "ET": true,
+                "IP": "192.168.35.228",
+                "SSH": true
+            }
+        }
+    },
+    "D5:CD:D1:AF:23:DA": {
+        "Name": "SW42",
+        "Protocolos": [
+            "BGP"
+        ],
+        "VLANs": {
+            "VL8": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_785"
+                ],
+                "ET": false,
+                "IP": "192.168.21.208",
+                "SSH": false
+            }
+        }
+    },
+    "44:BB:C7:2E:44:EC": {
+        "Name": "SW43",
+        "Protocolos": [
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL16": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.22.8",
+                "SSH": false
+            }
+        }
+    },
+    "1B:35:E2:D0:17:E7": {
+        "Name": "GW44",
+        "Protocolos": [
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL2": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.20.117",
+                "SSH": true
+            },
+            "VL8": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_474",
+                    "POL_615"
+                ],
+                "ET": false,
+                "IP": "192.168.32.54",
+                "SSH": true
+            },
+            "VL6": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_372"
+                ],
+                "ET": false,
+                "IP": "192.168.46.8",
+                "SSH": false
+            }
+        }
+    },
+    "C2:FA:26:43:05:4F": {
+        "Name": "R45",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL17": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.24.59",
+                "SSH": true
+            },
+            "VL6": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_430"
+                ],
+                "ET": true,
+                "IP": "192.168.47.231",
+                "SSH": true
+            },
+            "VL10": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_885"
+                ],
+                "ET": true,
+                "IP": "192.168.4.2",
+                "SSH": true
+            }
+        }
+    },
+    "1A:C6:E9:BB:C0:99": {
+        "Name": "GW46",
+        "Protocolos": [
+            "ST",
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL4": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_477"
+                ],
+                "ET": false,
+                "IP": "192.168.34.117",
+                "SSH": false
+            },
+            "VL1": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.24.230",
+                "SSH": true
+            },
+            "VL7": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_718",
+                    "POL_331"
+                ],
+                "ET": true,
+                "IP": "192.168.17.80",
+                "SSH": true
+            },
+            "VL8": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.20.50",
+                "SSH": false
+            }
+        }
+    },
+    "E3:32:5C:9A:6F:D4": {
+        "Name": "AP47",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL4": {
+                "Ports": [],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.4.46",
+                "SSH": true
+            }
+        }
+    },
+    "B3:A9:5E:E1:7F:25": {
+        "Name": "AP48",
+        "Protocolos": [
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL10": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_570"
+                ],
+                "ET": true,
+                "IP": "192.168.29.18",
+                "SSH": false
+            },
+            "VL2": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_525"
+                ],
+                "ET": true,
+                "IP": "192.168.5.6",
+                "SSH": false
+            },
+            "VL17": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_162",
+                    "POL_960"
+                ],
+                "ET": true,
+                "IP": "192.168.3.149",
+                "SSH": false
+            },
+            "VL3": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_154",
+                    "POL_755"
+                ],
+                "ET": true,
+                "IP": "192.168.37.238",
+                "SSH": false
+            }
+        }
+    },
+    "5C:4E:26:39:E5:D4": {
+        "Name": "SW49",
+        "Protocolos": [
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL2": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.39.156",
+                "SSH": true
+            }
+        }
+    },
+    "5C:A0:57:E8:D4:E1": {
+        "Name": "GW50",
+        "Protocolos": [
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL7": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_475"
+                ],
+                "ET": false,
+                "IP": "192.168.6.49",
+                "SSH": false
+            },
+            "VL17": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.16.32",
+                "SSH": true
+            }
+        }
+    },
+    "55:CE:60:4F:CC:75": {
+        "Name": "R51",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL18": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_843"
+                ],
+                "ET": false,
+                "IP": "192.168.25.191",
+                "SSH": false
+            },
+            "VL9": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_168",
+                    "POL_308"
+                ],
+                "ET": true,
+                "IP": "192.168.42.65",
+                "SSH": true
+            },
+            "VL10": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.32.67",
+                "SSH": false
+            },
+            "VL11": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_334"
+                ],
+                "ET": true,
+                "IP": "192.168.40.30",
+                "SSH": false
+            }
+        }
+    },
+    "E2:C1:3F:BE:6E:8B": {
+        "Name": "AP52",
+        "Protocolos": [
+            "BGP"
+        ],
+        "VLANs": {
+            "VL7": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_906",
+                    "POL_536"
+                ],
+                "ET": true,
+                "IP": "192.168.15.221",
+                "SSH": false
+            },
+            "VL2": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_464"
+                ],
+                "ET": true,
+                "IP": "192.168.20.203",
+                "SSH": true
+            }
+        }
+    },
+    "A0:3D:68:64:D8:41": {
+        "Name": "AP53",
+        "Protocolos": [
+            "BGP",
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL19": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_800",
+                    "POL_465"
+                ],
+                "ET": false,
+                "IP": "192.168.36.29",
+                "SSH": true
+            },
+            "VL12": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_562"
+                ],
+                "ET": true,
+                "IP": "192.168.39.151",
+                "SSH": false
+            }
+        }
+    },
+    "17:54:4A:AB:BC:28": {
+        "Name": "SW54",
+        "Protocolos": [
+            "ST",
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL12": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_763",
+                    "POL_525"
+                ],
+                "ET": false,
+                "IP": "192.168.25.27",
+                "SSH": true
+            }
+        }
+    },
+    "8B:BA:5F:29:35:23": {
+        "Name": "SW55",
+        "Protocolos": [
+            "RIP",
+            "ST"
+        ],
+        "VLANs": {
+            "VL3": {
+                "Ports": [],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.30.223",
+                "SSH": true
+            }
+        }
+    },
+    "4B:E9:98:E9:2D:58": {
+        "Name": "GW56",
+        "Protocolos": [
+            "BGP",
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL16": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_568",
+                    "POL_741"
+                ],
+                "ET": true,
+                "IP": "192.168.10.5",
+                "SSH": true
+            },
+            "VL6": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_379",
+                    "POL_973"
+                ],
+                "ET": true,
+                "IP": "192.168.21.142",
+                "SSH": false
+            },
+            "VL8": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_414"
+                ],
+                "ET": false,
+                "IP": "192.168.34.35",
+                "SSH": false
+            },
+            "VL12": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.19.236",
+                "SSH": false
+            }
+        }
+    },
+    "D1:B7:F5:B9:AE:32": {
+        "Name": "FW57",
+        "Protocolos": [
+            "BGP"
+        ],
+        "VLANs": {
+            "VL17": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_541"
+                ],
+                "ET": false,
+                "IP": "192.168.1.249",
+                "SSH": true
+            },
+            "VL3": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.18.29",
+                "SSH": true
+            },
+            "VL8": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_955",
+                    "POL_517"
+                ],
+                "ET": true,
+                "IP": "192.168.18.104",
+                "SSH": true
+            }
+        }
+    },
+    "F5:93:FD:48:4F:75": {
+        "Name": "AP58",
+        "Protocolos": [
+            "BGP"
+        ],
+        "VLANs": {
+            "VL13": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_942"
+                ],
+                "ET": true,
+                "IP": "192.168.43.211",
+                "SSH": true
+            },
+            "VL16": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.14.106",
+                "SSH": true
+            },
+            "VL14": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_693"
+                ],
+                "ET": false,
+                "IP": "192.168.7.138",
+                "SSH": false
+            },
+            "VL11": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_589",
+                    "POL_264"
+                ],
+                "ET": false,
+                "IP": "192.168.43.21",
+                "SSH": false
+            }
+        }
+    },
+    "B2:89:FA:1B:28:3E": {
+        "Name": "R59",
+        "Protocolos": [
+            "RIP",
+            "ST"
+        ],
+        "VLANs": {
+            "VL4": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_383",
+                    "POL_156"
+                ],
+                "ET": false,
+                "IP": "192.168.48.137",
+                "SSH": false
+            },
+            "VL11": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_390"
+                ],
+                "ET": false,
+                "IP": "192.168.44.99",
+                "SSH": false
+            }
+        }
+    },
+    "40:C6:E1:2E:BC:4E": {
+        "Name": "SW60",
+        "Protocolos": [
+            "RIP",
+            "ST"
+        ],
+        "VLANs": {
+            "VL19": {
+                "Ports": [],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.46.252",
+                "SSH": true
+            },
+            "VL10": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_234",
+                    "POL_551"
+                ],
+                "ET": false,
+                "IP": "192.168.33.108",
+                "SSH": true
+            },
+            "VL8": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_638",
+                    "POL_871"
+                ],
+                "ET": false,
+                "IP": "192.168.43.237",
+                "SSH": false
+            }
+        }
+    },
+    "67:EC:F8:CE:C2:98": {
+        "Name": "R61",
+        "Protocolos": [
+            "RIP",
+            "ST"
+        ],
+        "VLANs": {
+            "VL19": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.18.160",
+                "SSH": false
+            },
+            "VL12": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_916",
+                    "POL_905"
+                ],
+                "ET": false,
+                "IP": "192.168.11.109",
+                "SSH": true
+            }
+        }
+    },
+    "34:82:6A:2E:E2:D8": {
+        "Name": "SW62",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL13": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_541",
+                    "POL_604"
+                ],
+                "ET": true,
+                "IP": "192.168.37.49",
+                "SSH": false
+            },
+            "VL14": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_865",
+                    "POL_620"
+                ],
+                "ET": true,
+                "IP": "192.168.13.7",
+                "SSH": false
+            },
+            "VL3": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_660"
+                ],
+                "ET": true,
+                "IP": "192.168.50.15",
+                "SSH": false
+            }
+        }
+    },
+    "A6:E9:61:CB:E8:48": {
+        "Name": "GW63",
+        "Protocolos": [
+            "ST",
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL5": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_919"
+                ],
+                "ET": false,
+                "IP": "192.168.23.32",
+                "SSH": true
+            },
+            "VL14": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.20.247",
+                "SSH": false
+            },
+            "VL19": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_394",
+                    "POL_696"
+                ],
+                "ET": false,
+                "IP": "192.168.30.17",
+                "SSH": false
+            }
+        }
+    },
+    "4B:67:0F:E2:41:33": {
+        "Name": "FW64",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL16": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_571",
+                    "POL_224"
+                ],
+                "ET": false,
+                "IP": "192.168.34.130",
+                "SSH": true
+            },
+            "VL7": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_494",
+                    "POL_177"
+                ],
+                "ET": true,
+                "IP": "192.168.28.196",
+                "SSH": false
+            },
+            "VL2": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_281",
+                    "POL_405"
+                ],
+                "ET": false,
+                "IP": "192.168.43.235",
+                "SSH": true
+            }
+        }
+    },
+    "4B:E7:08:1F:43:AC": {
+        "Name": "SW65",
+        "Protocolos": [
+            "RIP",
+            "ST"
+        ],
+        "VLANs": {
+            "VL8": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.20.72",
+                "SSH": true
+            },
+            "VL16": {
+                "Ports": [],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.24.10",
+                "SSH": false
+            }
+        }
+    },
+    "E3:2D:B8:0A:8F:27": {
+        "Name": "AP66",
+        "Protocolos": [
+            "ST",
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL19": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.37.88",
+                "SSH": true
+            },
+            "VL7": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_807"
+                ],
+                "ET": true,
+                "IP": "192.168.36.207",
+                "SSH": true
+            },
+            "VL12": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_741",
+                    "POL_203"
+                ],
+                "ET": false,
+                "IP": "192.168.11.187",
+                "SSH": true
+            },
+            "VL2": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_675"
+                ],
+                "ET": false,
+                "IP": "192.168.25.217",
+                "SSH": false
+            }
+        }
+    },
+    "52:C4:81:D3:1F:33": {
+        "Name": "AP67",
+        "Protocolos": [
+            "RIP",
+            "ST"
+        ],
+        "VLANs": {
+            "VL12": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_818"
+                ],
+                "ET": false,
+                "IP": "192.168.16.61",
+                "SSH": true
+            },
+            "VL18": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.47.219",
+                "SSH": false
+            }
+        }
+    },
+    "88:F5:CB:01:D4:00": {
+        "Name": "R68",
+        "Protocolos": [
+            "BGP"
+        ],
+        "VLANs": {
+            "VL18": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_798",
+                    "POL_248"
+                ],
+                "ET": true,
+                "IP": "192.168.21.198",
+                "SSH": false
+            },
+            "VL17": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_601"
+                ],
+                "ET": false,
+                "IP": "192.168.28.20",
+                "SSH": false
+            },
+            "VL19": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.18.168",
+                "SSH": false
+            },
+            "VL10": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_321",
+                    "POL_564"
+                ],
+                "ET": false,
+                "IP": "192.168.39.238",
+                "SSH": false
+            }
+        }
+    },
+    "98:D8:05:96:DB:5D": {
+        "Name": "AP69",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL10": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_185",
+                    "POL_936"
+                ],
+                "ET": false,
+                "IP": "192.168.5.22",
+                "SSH": false
+            },
+            "VL6": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_721"
+                ],
+                "ET": true,
+                "IP": "192.168.19.239",
+                "SSH": true
+            }
+        }
+    },
+    "45:04:7E:73:39:A2": {
+        "Name": "SW70",
+        "Protocolos": [
+            "BGP"
+        ],
+        "VLANs": {
+            "VL7": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.30.59",
+                "SSH": false
+            }
+        }
+    },
+    "2A:3C:08:1F:45:6B": {
+        "Name": "AP71",
+        "Protocolos": [
+            "BGP",
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL15": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.34.163",
+                "SSH": true
+            },
+            "VL14": {
+                "Ports": [],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.16.58",
+                "SSH": false
+            },
+            "VL16": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_369",
+                    "POL_547"
+                ],
+                "ET": false,
+                "IP": "192.168.43.187",
+                "SSH": false
+            },
+            "VL12": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_456",
+                    "POL_112"
+                ],
+                "ET": true,
+                "IP": "192.168.27.147",
+                "SSH": false
+            }
+        }
+    },
+    "3B:D6:65:94:AD:9E": {
+        "Name": "AP72",
+        "Protocolos": [
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL4": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_670",
+                    "POL_315"
+                ],
+                "ET": true,
+                "IP": "192.168.24.31",
+                "SSH": false
+            },
+            "VL16": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_603"
+                ],
+                "ET": false,
+                "IP": "192.168.15.39",
+                "SSH": true
+            }
+        }
+    },
+    "CD:D0:20:B7:60:4E": {
+        "Name": "R73",
+        "Protocolos": [
+            "ST",
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL15": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_690"
+                ],
+                "ET": true,
+                "IP": "192.168.9.245",
+                "SSH": true
+            },
+            "VL17": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_515",
+                    "POL_151"
+                ],
+                "ET": true,
+                "IP": "192.168.34.98",
+                "SSH": true
+            }
+        }
+    },
+    "0C:71:A1:C1:4B:F5": {
+        "Name": "R74",
+        "Protocolos": [
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL11": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.44.176",
+                "SSH": false
+            },
+            "VL2": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_660",
+                    "POL_549"
+                ],
+                "ET": true,
+                "IP": "192.168.7.192",
+                "SSH": false
+            },
+            "VL18": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_119"
+                ],
+                "ET": false,
+                "IP": "192.168.43.15",
+                "SSH": false
+            }
+        }
+    },
+    "FB:23:A0:A1:49:D3": {
+        "Name": "R75",
+        "Protocolos": [
+            "BGP"
+        ],
+        "VLANs": {
+            "VL10": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_989",
+                    "POL_289"
+                ],
+                "ET": true,
+                "IP": "192.168.8.216",
+                "SSH": true
+            },
+            "VL7": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_562"
+                ],
+                "ET": false,
+                "IP": "192.168.40.177",
+                "SSH": false
+            },
+            "VL16": {
+                "Ports": [],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.36.127",
+                "SSH": false
+            }
+        }
+    },
+    "74:D6:FE:3B:78:BD": {
+        "Name": "AP76",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL17": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_943"
+                ],
+                "ET": false,
+                "IP": "192.168.40.234",
+                "SSH": false
+            }
+        }
+    },
+    "CA:88:38:05:7A:BC": {
+        "Name": "GW77",
+        "Protocolos": [
+            "ST",
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL1": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.49.99",
+                "SSH": false
+            }
+        }
+    },
+    "71:31:B4:49:62:34": {
+        "Name": "GW78",
+        "Protocolos": [
+            "BGP",
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL8": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.36.230",
+                "SSH": true
+            },
+            "VL4": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.8.237",
+                "SSH": true
+            }
+        }
+    },
+    "5A:FC:E1:FD:FD:29": {
+        "Name": "R79",
+        "Protocolos": [
+            "BGP",
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL2": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.48.53",
+                "SSH": true
+            }
+        }
+    },
+    "90:72:75:BF:13:2A": {
+        "Name": "R80",
+        "Protocolos": [
+            "BGP"
+        ],
+        "VLANs": {
+            "VL19": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_579"
+                ],
+                "ET": false,
+                "IP": "192.168.41.70",
+                "SSH": false
+            },
+            "VL3": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_138",
+                    "POL_488"
+                ],
+                "ET": false,
+                "IP": "192.168.32.118",
+                "SSH": false
+            },
+            "VL12": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_791",
+                    "POL_788"
+                ],
+                "ET": true,
+                "IP": "192.168.8.21",
+                "SSH": false
+            }
+        }
+    },
+    "C3:8B:CB:A4:E3:79": {
+        "Name": "SW81",
+        "Protocolos": [
+            "ST",
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL12": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_671",
+                    "POL_917"
+                ],
+                "ET": true,
+                "IP": "192.168.11.108",
+                "SSH": false
+            }
+        }
+    },
+    "04:4E:EC:E7:2E:05": {
+        "Name": "FW82",
+        "Protocolos": [
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL9": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_704",
+                    "POL_630"
+                ],
+                "ET": true,
+                "IP": "192.168.4.251",
+                "SSH": false
+            },
+            "VL10": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_590"
+                ],
+                "ET": true,
+                "IP": "192.168.27.177",
+                "SSH": false
+            }
+        }
+    },
+    "D4:29:B5:46:8F:F2": {
+        "Name": "AP83",
+        "Protocolos": [
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL13": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_863",
+                    "POL_849"
+                ],
+                "ET": true,
+                "IP": "192.168.40.136",
+                "SSH": false
+            }
+        }
+    },
+    "0F:73:FF:AD:F2:3B": {
+        "Name": "GW84",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL2": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_486",
+                    "POL_305"
+                ],
+                "ET": false,
+                "IP": "192.168.14.230",
+                "SSH": false
+            }
+        }
+    },
+    "CC:5A:85:75:66:2A": {
+        "Name": "SW85",
+        "Protocolos": [
+            "ST",
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL17": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_264"
+                ],
+                "ET": true,
+                "IP": "192.168.29.143",
+                "SSH": false
+            }
+        }
+    },
+    "79:CE:56:D1:D7:8B": {
+        "Name": "R86",
+        "Protocolos": [
+            "BGP"
+        ],
+        "VLANs": {
+            "VL16": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_194"
+                ],
+                "ET": true,
+                "IP": "192.168.18.116",
+                "SSH": true
+            },
+            "VL15": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_563"
+                ],
+                "ET": true,
+                "IP": "192.168.43.172",
+                "SSH": false
+            },
+            "VL12": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.50.153",
+                "SSH": true
+            }
+        }
+    },
+    "02:09:74:33:FB:CC": {
+        "Name": "R87",
+        "Protocolos": [
+            "ST",
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL10": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_164"
+                ],
+                "ET": false,
+                "IP": "192.168.13.36",
+                "SSH": false
+            },
+            "VL1": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.34.209",
+                "SSH": true
+            }
+        }
+    },
+    "2C:77:60:46:43:22": {
+        "Name": "SW88",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL10": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_650",
+                    "POL_921"
+                ],
+                "ET": false,
+                "IP": "192.168.22.98",
+                "SSH": true
+            },
+            "VL16": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.34.121",
+                "SSH": true
+            },
+            "VL13": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_517"
+                ],
+                "ET": true,
+                "IP": "192.168.44.215",
+                "SSH": true
+            }
+        }
+    },
+    "90:C4:8C:3C:FE:E2": {
+        "Name": "AP89",
+        "Protocolos": [
+            "BGP"
+        ],
+        "VLANs": {
+            "VL19": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.23.74",
+                "SSH": true
+            }
+        }
+    },
+    "05:76:03:AA:04:D9": {
+        "Name": "SW90",
+        "Protocolos": [
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL1": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [
+                    "POL_666",
+                    "POL_845"
+                ],
+                "ET": true,
+                "IP": "192.168.25.7",
+                "SSH": true
+            },
+            "VL10": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_727",
+                    "POL_599"
+                ],
+                "ET": true,
+                "IP": "192.168.45.170",
+                "SSH": false
+            },
+            "VL6": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_898"
+                ],
+                "ET": false,
+                "IP": "192.168.1.124",
+                "SSH": true
+            }
+        }
+    },
+    "0E:A4:93:B9:FA:24": {
+        "Name": "SW91",
+        "Protocolos": [
+            "BGP",
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL6": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.37.129",
+                "SSH": false
+            },
+            "VL15": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_637",
+                    "POL_306"
+                ],
+                "ET": false,
+                "IP": "192.168.6.154",
+                "SSH": true
+            },
+            "VL7": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.15.185",
+                "SSH": false
+            },
+            "VL19": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.7.162",
+                "SSH": true
+            }
+        }
+    },
+    "D7:6C:09:42:09:91": {
+        "Name": "SW92",
+        "Protocolos": [
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL1": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_428"
+                ],
+                "ET": true,
+                "IP": "192.168.32.224",
+                "SSH": false
+            },
+            "VL18": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.30.248",
+                "SSH": true
+            },
+            "VL19": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.7.101",
+                "SSH": false
+            }
+        }
+    },
+    "DB:53:37:95:B8:1C": {
+        "Name": "GW93",
+        "Protocolos": [
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL12": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.44.70",
+                "SSH": true
+            }
+        }
+    },
+    "12:3A:D1:07:B4:93": {
+        "Name": "R94",
+        "Protocolos": [
+            "RIP",
+            "ST"
+        ],
+        "VLANs": {
+            "VL1": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_916",
+                    "POL_965"
+                ],
+                "ET": false,
+                "IP": "192.168.34.121",
+                "SSH": false
+            }
+        }
+    },
+    "17:6E:8D:FE:D9:1D": {
+        "Name": "FW95",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL18": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.3.12",
+                "SSH": false
+            }
+        }
+    },
+    "4D:8B:61:2C:B2:70": {
+        "Name": "FW96",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL15": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_595",
+                    "POL_105"
+                ],
+                "ET": true,
+                "IP": "192.168.33.93",
+                "SSH": true
+            },
+            "VL1": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [],
+                "ET": false,
+                "IP": "192.168.9.50",
+                "SSH": true
+            }
+        }
+    },
+    "19:72:38:19:E9:E9": {
+        "Name": "SW97",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL1": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_770"
+                ],
+                "ET": true,
+                "IP": "192.168.38.205",
+                "SSH": false
+            },
+            "VL10": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_213"
+                ],
+                "ET": false,
+                "IP": "192.168.15.83",
+                "SSH": false
+            }
+        }
+    },
+    "BA:28:41:40:A4:C0": {
+        "Name": "GW98",
+        "Protocolos": [
+            "RIP",
+            "ST"
+        ],
+        "VLANs": {
+            "VL10": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_546",
+                    "POL_574"
+                ],
+                "ET": true,
+                "IP": "192.168.21.7",
+                "SSH": false
+            },
+            "VL18": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_617",
+                    "POL_328"
+                ],
+                "ET": true,
+                "IP": "192.168.50.35",
+                "SSH": true
+            },
+            "VL13": {
+                "Ports": [
+                    "Gi0/0"
+                ],
+                "Plicies": [
+                    "POL_661",
+                    "POL_872"
+                ],
+                "ET": false,
+                "IP": "192.168.15.241",
+                "SSH": true
+            },
+            "VL8": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2",
+                    "Gi0/3"
+                ],
+                "Plicies": [],
+                "ET": true,
+                "IP": "192.168.30.68",
+                "SSH": true
+            }
+        }
+    },
+    "06:B1:31:12:70:2B": {
+        "Name": "AP99",
+        "Protocolos": [
+            "BGP",
+            "OSPF"
+        ],
+        "VLANs": {
+            "VL5": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_275"
+                ],
+                "ET": true,
+                "IP": "192.168.42.151",
+                "SSH": true
+            }
+        }
+    },
+    "93:34:85:0C:C8:E1": {
+        "Name": "R100",
+        "Protocolos": [
+            "EIGRP"
+        ],
+        "VLANs": {
+            "VL4": {
+                "Ports": [],
+                "Plicies": [
+                    "POL_791"
+                ],
+                "ET": true,
+                "IP": "192.168.9.2",
+                "SSH": true
+            },
+            "VL14": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1",
+                    "Gi0/2"
+                ],
+                "Plicies": [
+                    "POL_805"
+                ],
+                "ET": true,
+                "IP": "192.168.28.163",
+                "SSH": false
+            }
+        }
+    },
+    "EC:51:6A:7C:DE:8E": {
+        "Name": "GW101",
+        "Protocolos": [
+            "OSPF",
+            "ST"
+        ],
+        "VLANs": {
+            "VL10": {
+                "Ports": [
+                    "Gi0/0",
+                    "Gi0/1"
+                ],
+                "Plicies": [
+                    "POL_438"
+                ],
+                "ET": true,
+                "IP": "192.168.6.209",
+                "SSH": false
+            }
+        }
+    }
+}

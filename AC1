@@ -1,0 +1,5 @@
+ident = "Axel Rogelio Lopez Jaramillo|4B|Azul"
+
+#Imprime los caracteres apartir de la posicion donde inicies y los (2 puntos) : es hasta que valores tomara"
+print(ident[32:42])
+#En el ejercicio empieza a tomar valores desde la posición 32 hasta la 42      
